@@ -21,6 +21,7 @@ function Form(props) {
                 <div>{errors.name}</div>
                 <div>{errors.email}</div>
                 <div>{errors.password}</div>
+                <div>{errors.terms}</div>
             </div>
             <form onSubmit={onSubmit}>
                 <label>Name
