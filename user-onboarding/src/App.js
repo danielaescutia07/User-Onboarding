@@ -70,16 +70,21 @@ function App() {
   return (
     <div className="App">
       <h1>USER ONBOARDING FORM</h1>
-      <Form 
-        values={formValues}
-        change={inputChange}
-        submit={formSubmit}
-        disabled={disabled}
-        errors={formErrors}
-      />
-      {users.map((user, idx) => (
-        <Users key={idx} details={user} />
-      ))}
+      <div className="body">
+        <Form 
+          values={formValues}
+          change={inputChange}
+          submit={formSubmit}
+          disabled={disabled}
+          errors={formErrors}
+        />
+       
+        <div className="users">
+        {users.map((user, idx) => (
+          <Users key={idx} details={user} />
+        ))}
+        </div>
+      </div>
     </div>
   );
 }

@@ -5,9 +5,9 @@ function Users(props) {
 
     return (
         <div>
-            <h3>Hello I am the Users Component!</h3>
+            <h2>Welcome!</h2>
             <h4>Name: {details.name}</h4>
-            <p>Email: {details.email}</p>
+            <h4>Email: {details.email}</h4>
         </div>
     )
 }

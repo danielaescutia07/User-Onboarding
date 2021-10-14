@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Form.css';
 function Form(props) {
     const { values, change, submit, disabled, errors } = props;
 
@@ -15,15 +15,15 @@ function Form(props) {
     }
 
     return (
-        <div>
-            <h2>Please fill out form</h2>
-            <div>
+        <div className="userDiv">
+            <h2>Add User</h2>
+            <div style={{color: 'red'}}>
                 <div>{errors.name}</div>
                 <div>{errors.email}</div>
                 <div>{errors.password}</div>
                 <div>{errors.terms}</div>
             </div>
-            <form onSubmit={onSubmit}>
+            <form className="userInput" onSubmit={onSubmit}>
                 <label>Name
                     <input
                         type="text"
