@@ -1,0 +1,16 @@
+.userDiv {
+    box-shadow: 4px 3px 5px 2px #5c677d;
+    padding: 5%;
+    margin: auto;
+}
+.userInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    margin-right: 5px;
+}
+input {
+    margin-left: 5px;
+}

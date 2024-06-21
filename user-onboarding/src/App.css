@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  margin: 10%;
+  padding: 2%;
+  box-shadow: 3px 3px #aec3b0, -1em 0 .4em #e1e5f2;
+}
+h1 {
+  font-size: 3rem;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5%;
+  margin: auto;
+}
+
+.users {
+  padding: 3%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+
